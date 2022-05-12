@@ -1,0 +1,208 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:hover{
+  color: #EAf6f6;
+}
+
+h1{
+  font-size: 580%; /** 16px = 100% = 1em **/
+                   /** rem = root em (this wont get affected by parent font size)**/
+                   /** px=(pixel) is static, em and % is dynamic. Dynamic will follow parent font-size **/
+  margin:auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  color: #66bfbf;
+}
+
+h2{
+  margin:auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 5;
+}
+
+h3{
+  color: #11999E;
+}
+
+hr {
+  background-color: none;
+  border-color: #99C4C8;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 5%;
+  margin: 100px auto;
+
+}
+
+/***************************** TOP SECTION CLASSES ***********************/
+
+.top-small-heading{
+  color: #66bfbf;
+  position: absolute;
+  font-size: 2.3rem;
+  top: 280px;
+  right: 0;
+  left: 0;
+}
+
+.top-big-heading{
+  color: #66bfbf;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 140px;
+}
+
+.skill-row{
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2.5;
+
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+/*********************** SKILL SECTION CLASSES ***********************/
+
+/**.skills{
+  position:relative;
+}
+.top-skill-title{
+position: absolute;
+}
+
+.top-skill{
+position: absolute;
+  /**clear: left;**/
+
+
+/**.bottom-skill-title{
+position: absolute;
+}
+
+.bottom-skill{
+position: absolute;
+  /**clear: right;**/
+
+
+/*************************** CONTACT MESSAGE *********************/
+
+.contact-message{
+  margin: 40px auto 40px auto;
+  width: 40%;
+}
+
+/****************************Images***************************/
+.myavatar{
+  width: 200px;
+}
+
+.skillpicture1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Giphy2{
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+.cloud-top{
+  width: 25%;
+  right: 20px;
+  top: 20px;
+  position: absolute;
+}
+
+.lower-cloud{
+  width: 25%;
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  bottom: 485px;
+}
+
+.mountain{
+  width: 80%;
+  text-align: center;
+  margin-top: 0;
+}
+
+/************************Container************************/
+
+.top-container{
+  background-color: #E4F9F5;
+  position:relative;
+  padding-top: 230px;
+}
+
+.middle-container{
+  margin: 100px 0;
+
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 1rem;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
